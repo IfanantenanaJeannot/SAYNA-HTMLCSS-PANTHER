@@ -4,39 +4,30 @@
     <script src="main.js"></script>
   </head>
   <body>
-     <!-- Slideshow container -->
-    <div class="slideshow-container fade">
+     <h2>Image slider</h2>
+    <div class="slider">
+      <div class="slide">
+            <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="Photo1"/>
+        </div>
+      <div class="slide">
+            <img src="https://images.unsplash.com/photo-1619266465172-02a857c3556d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="Photo3"/>
+        </div> 
+      <div class="slide">
+            <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="Photo2"/>
+        </div>
+      <div class="slide">
+            <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="Photo3"/>
+        </div> 
 
-      <!-- Full images with numbers and message Info -->
-      <div class="Containers">
-        <div class="MessageInfo">1 / 3</div>
-        <img src="image1.jpg" style="width:100%">
-        <div class="Info">First caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">2 / 3</div>
-        <img src="image2.jpg" style="width:100%">
-        <div class="Info">Second Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">3 / 3</div>
-        <img src="image3.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <!-- Back and forward buttons -->
-      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        <button class="btn-slide prev"><i class="fas fa-3x fa-chevron-circle-left"></i></button>
+        <button class="btn-slide next"><i class="fas fa-3x fa-chevron-circle-right"></i></button>
+      
     </div>
-    <br>
-
-    <!-- The circles/dots -->
-    <div style="text-align:center">
-      <span class="dots" onclick="currentSlide(1)"></span>
-      <span class="dots" onclick="currentSlide(2)"></span>
-      <span class="dots" onclick="currentSlide(3)"></span>
-    </div> 
+    <div class="dots-container">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+      <span class="dot" data-slide="3"></span>
+    </div>
   </body>
 </html> 
