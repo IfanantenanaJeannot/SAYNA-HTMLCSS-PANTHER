@@ -30,7 +30,7 @@ h2{
 .slide{ 
     position: absolute;
     top:0;
-    width: 100%;
+    width:100%;
     height: 26.625rem;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ h2{
     transition: transform 1s;
 }
 .slide > img{
-    width: 100%;
+    width: calc(100%/3);
     height: 100%;
     object-fit: cover;
 }
@@ -79,6 +79,9 @@ button .fas{
     border-radius: .5rem;
     background: rgba(39,39,39, .5);
     cursor: pointer;
+}
+.dot.active{
+background:#272727;
 }
 .dot.active{
 background:#272727;
