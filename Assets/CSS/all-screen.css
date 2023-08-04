@@ -1,0 +1,245 @@
+@font-face{
+    font-family:"panthera";
+    src:url(../font/PantheraRegular-MVZ9J.ttf);
+}
+@font-face{
+    font-family:"beyno";
+    src:url(../font/BEYNO.ttf);
+}
+@font-face{
+    font-family:"cantarell";
+    src:url(../font/Cantarell-Regular.ttf);
+}
+@font-face{
+    font-family:"wakandaForever";
+    src:url(../font/WakandaForever-Regular.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    background-image:linear-gradient(-90deg,#021740,black );
+}
+nav{
+    margin-left:100px;
+    margin-right:100px;
+    padding-top:55px;
+    padding-bottom:0px;
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+}
+nav ul li{
+    list-style:none;
+    float:right;
+    position:relative;
+}
+nav ul li a{
+    color:white;
+    text-transformation:uppercase;
+    text-decoration:none;
+    font-family:beyno;
+    font-size:16px;
+    padding:20px;
+    cursor:pointer;
+}
+nav ul li a:hover{
+    color:#9E91B7;
+    text-decoration:underline;
+}
+#hero .container{
+    display:flex;
+    margin-top:180px;
+}
+#hero .content{
+    position:relative;
+    transform:translate(-200px,-10px);
+}
+#hero .content h1{
+    font-family:beyno;
+    font-size:46px;
+    color:#9E91B7;
+    width:120%;
+    padding-bottom:150px;
+}
+.logos:hover{
+    -webkit-filter:invert(85%) sepia(64%) saturate(5591%) hue-rotate(300deg) brightness(77%) contrast(95%);
+    filter: invert(85%) sepia(64%) saturate(5591%) hue-rotate(300deg) brightness(77%) contrast(95%);
+}
+.citation p{
+    font-family:"cantarell";
+    font-size:12px;
+    text-align:justify;
+    width:100%;
+    margin-left:20px;
+}
+.image-content{
+    position:relative;
+    transform:translate( 0px, -220px);
+}
+.cnt{
+    position:relative;
+    transform:translate(590px, -656px);
+}
+.quote{
+    font-family:"wakandaForever";
+    font-size:30px;
+    color:#9E91B7;
+}
+#parole{
+    margin-left:150px;
+    position:relative;
+    transform:translate(0px,-600px);
+}
+.alphabet span{
+    font-family:"wakandaForever";
+    font-size:20px;
+}
+.alphabet p{
+    padding:20px;
+}
+.container{
+    display:flex;
+}
+.container .sider{
+    width:40%;
+    padding-left:40px;
+    padding-top:200px;
+    text-align:center;
+}
+.cnt2{
+    position:relative;
+    transform:translate(450px, -226px);
+}
+.formulaire{
+    position:relative;
+    transform:translate(250px,-870px);
+}
+.formulaire{
+    width:300px;
+    height:400px;
+    padding:25px;
+}
+.formulaire p{
+    padding-bottom:15px;
+    font-size:12px;
+}
+.formulaire input{
+    width:340px;
+    height:32px;
+    background:transparent;
+    padding-bottom:15px;
+    border-color:#9E91B7;
+    border-radius:10px;
+    letter-spacing:2px;
+    padding-top:7px;
+    padding-left:10px;
+}
+.button{
+    width:200px;
+    height:30px;
+    background:#DF99F2;
+    border-radius:10px;
+    margin-top:30px;
+    cursor:pointer;
+    margin-left:85px;
+}
+
+/* wakanda css*/
+
+#hero2{
+    background:url(Illustrations + Logo/Wakanda/Pantherwakanda1.png);
+    background-size:cover;
+    background-repeat:no-reapet;
+}
+.container-text{
+    padding-top:200px;
+    padding-bottom:70px;
+    width:50%;
+    height:90vh;
+    margin-left:150px;
+}
+.container-text h1{
+    font-family:"beyno";
+    font-size:40px;
+    color:#9E91B7;
+}
+.container-text h2{
+    font-family:"wakandaForever";
+    font-size:32px;
+    color:#9E91B7;
+}
+.container-text p{
+    font-family:"cantarell";
+    font-size:16px;
+    text-align:justify;
+    margin-top:30px;
+}
+#story{
+    background:url(Illustrations + Logo/Wakanda/Pantherwakanda2.png );
+}
+
+.histoire{
+    display:flex;
+    margin-left:150px;
+}
+.histoire h2{
+    font-family:beyno;
+    color:#9E91B7;
+    font-size:26px;
+    margin-top:30px;
+}
+.histoire p{
+    font-family:"cantarell";
+    text-align:justify;
+    font-size:16px;
+    margin-top:22px;
+    margin-right:50px;
+}
+footer{
+    margin-top:200px;
+    background:linear-gradient(to top,#07338C,#021740)
+}
+.logo{
+    position:relative;
+    transform:translate(120px,120px);
+}
+.bulle{
+    position:relative;
+    transform:translate(60px,-30px);
+    width:600px;
+}
+.pgs{
+    position:relative;
+    transform:translate(580px,-100px);
+    font-family:"cantarell";
+}
+.pgs ul li{
+    list-style:none;
+    font-family:"cantarell";
+}
+.icons{
+    position:relative;
+    transform:translate(880px,-180px);
+}
+.icons h2{
+    font-family:"cantarell";
+}
+.icons img{
+    width:50px;
+    color:white;
+    padding:10px;
+}
+.confid{
+    position:relative;
+    transform:translate(880px,-80px);
+    display:flex;
+}

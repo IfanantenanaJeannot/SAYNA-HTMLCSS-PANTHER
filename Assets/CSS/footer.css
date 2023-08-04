@@ -1,0 +1,39 @@
+footer{
+  margin-top:200px;
+  background:linear-gradient(to top,#07338C,#021740)
+}
+.logo{
+  position:relative;
+  transform:translate(120px,120px);
+}
+.bulle{
+  position:relative;
+  transform:translate(60px,-30px);
+  width:600px;
+}
+.pgs{
+  position:relative;
+  transform:translate(580px,-100px);
+  font-family:"cantarell";
+}
+.pgs ul li{
+  list-style:none;
+  font-family:"cantarell";
+}
+.icons{
+  position:relative;
+  transform:translate(880px,-180px);
+}
+.icons h2{
+  font-family:"cantarell";
+}
+.icons img{
+  width:50px;
+  color:white;
+  padding:10px;
+}
+.confid{
+  position:relative;
+  transform:translate(880px,-80px);
+  display:flex;
+}

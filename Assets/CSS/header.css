@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "panthera";
+  src: url(../font/PantheraRegular-MVZ9J.ttf);
+}
+@font-face {
+  font-family: "beyno";
+  src: url(../font/BEYNO.ttf);
+}
+@font-face {
+  font-family: "cantarell";
+  src: url(../font/Cantarell-Regular.ttf);
+}
+@font-face {
+  font-family: "wakandaForever";
+  src: url(../font/WakandaForever-Regular.ttf);
+}
+nav {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 55px;
+  padding-bottom: 0px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+  float: right;
+  position: relative;
+}
+nav ul li a {
+  color: white;
+  text-transformation: uppercase;
+  text-decoration: none;
+  font-family: beyno;
+  font-size: 16px;
+  padding: 20px;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: #9E91B7;
+  text-decoration: underline;
+}
